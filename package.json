@@ -7,7 +7,8 @@
     "build": "tsc",
     "start:dev": "ts-node ./src/index.ts",
     "start:prod": "tsc && node ./dist/index.js",
-    "test": "jest ./src/test"
+    "test": "jest ./src/test",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",

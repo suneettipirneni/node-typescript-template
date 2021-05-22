@@ -1,5 +1,1 @@
-export function sayHello(): string {
-  return 'Hello World';
-}
-
-console.log(sayHello());
+console.log('Hello World!');
