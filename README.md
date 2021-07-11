@@ -2,7 +2,13 @@
 
 ## Available Scripts
 
+
+
 In the project directory, you can run:
+
+### `npm start`
+
+An alias for `npm start:dev`
 
 ### `npm start:dev`
 
