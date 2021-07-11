@@ -6,7 +6,8 @@
     },
     "env": {
       "jest": true,
-      "node": true
+      "node": true,
+      "es6": true
     },
     "plugins": [
       "@typescript-eslint"
@@ -17,6 +18,13 @@
       "plugin:@typescript-eslint/recommended"
     ],
     "rules": {
+      "eqeqeq": ["warn", "smart"],
+      "eol-last": ["error"],
+      "@typescript-eslint/await-thenable": ["error"],
+      "@typescript-eslint/no-extra-non-null-assertion": ["error"],
+      "@typescript-eslint/no-unnecessary-type-assertion": ["error"],
+      "@typescript-eslint/prefer-nullish-coalescing": ["error"],
+      "@typescript-eslint/require-await": ["error"],
       "semi": "off",
       "@typescript-eslint/semi": ["error"],
       "@typescript-eslint/member-delimiter-style": ["error" ,{
@@ -34,7 +42,6 @@
       "@typescript-eslint/indent": ["error", 2, {
         "ignoredNodes": ["TSTypeParameterInstantiation"]
       }],
-      "@typescript-eslint/explicit-module-boundary-types": ["error"],
       "quotes": "off",
       "@typescript-eslint/quotes": ["error", "single"]
     }
