@@ -1,8 +1,9 @@
 {
-  "name": "typescript-template",
-  "version": "1.0.1",
-  "description": "A template for running typescript on the nodejs platform",
-  "main": "src/index.ts",
+  "name": "pacakge_name",
+  "version": "1.0.0",
+  "description": "package_description",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "npm run start:dev",
