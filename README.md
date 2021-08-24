@@ -2,8 +2,6 @@
 
 ## Available Scripts
 
-
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -29,3 +27,7 @@ Compiles the source files.
 ### `npm run lint`
 
 Lints all of the source files.
+
+### `npm run format`
+
+Formats all of the source files.
