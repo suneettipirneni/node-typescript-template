@@ -13,7 +13,7 @@
     "lint": "eslint --fix ./src",
     "format": "prettier --write ./src",
     "pre-commit": "lint-staged",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
